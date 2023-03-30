@@ -1,0 +1,51 @@
+body{
+    background-color:lightgreen;
+    color: darkgreen;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+img{
+    border: 10px;
+    border-radius :20px;
+    border-style: double;
+    border-color: darkgreen;
+    animation-name: eg;
+    animation-iteration-count: infinite;
+    width: 150px;
+    height: 150px;
+    animation-name: eg2;
+}
+@keyframes eg{
+    from {box-shadow: 1px 1px 38px darkgreen;}
+    to {box-shadow:  1px 1px 38px green;}
+}
+
+@keyframes eg2 {
+    from {width: 90px;}
+    to{width: 80px;}
+}
+#google_lens_img{
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+}
+#Mobilenet_img{
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+}
+h1{
+    background-color: white;
+    border-radius: 20px;
+    width: 80px;
+    font-family: Impact;
+}
+.test_image_and_result{
+    border-radius: 30px;
+}
+#vss{
+    color: red;
+}
